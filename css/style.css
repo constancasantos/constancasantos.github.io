@@ -1,0 +1,77 @@
+body {
+	background-color: #61C6E8;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 50;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+.main {
+	width: 600px;
+	margin: 10px auto;
+	background: rgba(255,255,255,0.5);
+	padding: 20px;
+	border-radius: 20px; /*this is making the div corners to be round*/
+}
+
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid black;
+	font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: blue;
+	margin-bottom: 0;
+	cursor: pointer;
+}
+
+
+/* this is a comment */
+
+img {
+	width: 400px;
+	display: block; /* this centres the image */
+	margin: 50px auto;
+	border: 10px solid peachpuff;
+	border-radius: 40%;
+	cursor: pointer;
+
+}
+
+
+p,
+ul,
+ol {
+	line-height: 1.6;
+	list-style: none;
+	padding-left: 20px
+}
+
+
+a {
+	color: #cc3399;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+a:hover {
+	text-decoration: underline;
+	color: #990033;
+}
+
+
